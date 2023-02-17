@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "2023年2月3日14时56分41秒!"+"\n"+"2023年2月16日15时02分08秒 第二次执行";
 	}
 
 }
